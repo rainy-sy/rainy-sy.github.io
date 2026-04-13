@@ -30,42 +30,43 @@
         </div>
     </nav>
 
-    <!-- Home / Headline - 欢迎语放在最上面 -->
+    <!-- Home / Headline -->
     <section id="home" class="hero-bg text-white py-28">
-        <div class="max-w-6xl mx-auto px-6">
-            <!-- 欢迎语 - 页面最上面 -->
-            <p class="text-lg text-indigo-100 max-w-2xl mx-auto mb-8 text-center">
-                Welcome! I'm WANG Shiyu, an analytical AI engineer with a strong passion for machine learning and large model applications. 
-                I thrive on cross-domain problem solving and responsible innovation — always eager to learn and create meaningful impact.
-            </p>
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-6xl md:text-7xl font-bold leading-none mb-6">
+                    Aspiring Artificial Intelligence Engineer
+                </h1>
+                <p class="text-4xl text-indigo-300 mb-8">
+                    Machine Learning &amp; Large Model Applications
+                </p>
+                
+                <!-- 欢迎语 - 放在 Headline 正下方，更优雅自然 -->
+                <p class="text-xl max-w-lg mb-12 text-indigo-100">
+                    Welcome! I'm WANG Shiyu, an analytical AI engineer with a strong passion for machine learning and large model applications. 
+                    I thrive on cross-domain problem solving and responsible innovation — always eager to learn and create meaningful impact.
+                </p>
 
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h1 class="text-6xl md:text-7xl font-bold leading-none mb-6 text-center md:text-left">
-                        Aspiring Artificial Intelligence Engineer
-                    </h1>
-                    <p class="text-4xl text-indigo-300 mb-8 text-center md:text-left">
-                        Machine Learning &amp; Large Model Applications
-                    </p>
-
-                    <div class="flex flex-wrap gap-3 justify-center md:justify-start">
-                        <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">Machine Learning</span>
-                        <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">RAG &amp; Multi-Agent</span>
-                        <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">Deep Learning</span>
-                        <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">PyTorch</span>
-                    </div>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">Machine Learning</span>
+                    <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">RAG &amp; Multi-Agent</span>
+                    <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">Deep Learning</span>
+                    <span class="bg-white/10 px-6 py-3 rounded-full text-lg backdrop-blur font-medium">PyTorch</span>
                 </div>
-                <div class="flex justify-center">
-                    <img src="profile.jpg" alt="WANG Shiyu" class="w-72 h-96 object-cover rounded-3xl shadow-2xl border-8 border-white/30">
-                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="profile.jpg" alt="WANG Shiyu" class="w-72 h-96 object-cover rounded-3xl shadow-2xl border-8 border-white/30">
             </div>
         </div>
     </section>
 
-    <!-- 以下部分完全不变（About Me、Skills、Projects、Resume、Contact） -->
     <!-- About Me -->
     <section id="about" class="max-w-6xl mx-auto px-6 py-20 bg-white">
         <h2 class="text-5xl font-bold mb-12 text-center">About Me</h2>
+        
+        <!-- 新增标题：Personal Summary -->
+        <h3 class="text-2xl font-semibold text-center text-zinc-500 mb-8">Personal Summary</h3>
+        
         <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
             <div class="space-y-8">
                 <p class="text-lg leading-relaxed">Driven and analytical Artificial Intelligence graduate with strong expertise in machine learning, business analytics, and intelligent systems.</p>
