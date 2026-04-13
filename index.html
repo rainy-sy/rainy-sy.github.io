@@ -54,60 +54,9 @@
         </div>
     </section>
 
-    <!-- Featured Projects (最突出部分) -->
-    <section id="projects" class="max-w-6xl mx-auto px-6 py-20 bg-white">
-        <h2 class="text-5xl font-bold text-center mb-4">Featured Projects</h2>
-        <p class="text-center text-zinc-500 mb-12">Recent work showcasing my technical depth and ownership</p>
-        
-        <div class="grid md:grid-cols-3 gap-8">
-
-            <!-- 1. HK Trip -->
-            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
-                <div class="flex items-center gap-3 mb-6">
-                    <i class="fa-solid fa-brain text-4xl text-indigo-600"></i>
-                    <div>
-                        <h3 class="font-bold text-2xl">Hong Kong Intelligent Trip Planner</h3>
-                        <p class="text-indigo-600">Apr – May 2026</p>
-                    </div>
-                </div>
-                <p class="text-sm mb-6">Local LLM multi-agent system with Critic Agent</p>
-                <p class="font-semibold text-indigo-700 text-lg">88% constraint compliance • 82.4% preference coverage</p>
-                <p class="mt-8 text-zinc-600 text-sm">Solely designed and implemented the entire Critic Agent (prompt + rule-based checks for budget, schedule, preference &amp; weather). <span class="highlight">Demonstrates my ability to build reliable, production-ready LLM systems with analytical precision.</span></p>
-            </div>
-
-            <!-- 2. Titanic -->
-            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
-                <div class="flex items-center gap-3 mb-6">
-                    <i class="fa-solid fa-chart-line text-4xl text-indigo-600"></i>
-                    <div>
-                        <h3 class="font-bold text-2xl">Titanic Survival Prediction</h3>
-                        <p class="text-indigo-600">Mar – Apr 2026</p>
-                    </div>
-                </div>
-                <p class="text-sm mb-6">Advanced feature engineering + ablation study</p>
-                <p class="font-semibold text-indigo-700 text-lg">Accuracy ↑2.23% • F1 ↑4.93%</p>
-                <p class="mt-8 text-zinc-600 text-sm">Solely owned all feature engineering (Title, FamilySize, AgePclass, FarePerPerson, etc.). <span class="highlight">Demonstrates my analytical strength in turning raw data into high-impact features that drive measurable model improvement.</span></p>
-            </div>
-
-            <!-- 3. Snake Game -->
-            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
-                <div class="flex items-center gap-3 mb-6">
-                    <i class="fa-solid fa-gamepad text-4xl text-indigo-600"></i>
-                    <div>
-                        <h3 class="font-bold text-2xl">AI Snake Game (DQN)</h3>
-                        <p class="text-indigo-600">Feb – Mar 2026</p>
-                    </div>
-                </div>
-                <p class="text-sm mb-6">End-to-end Reinforcement Learning</p>
-                <p class="font-semibold text-indigo-700 text-lg">Successful policy learning</p>
-                <p class="mt-8 text-zinc-600 text-sm">Sole developer of complete DQN pipeline (PyTorch). <span class="highlight">Showcases my strong foundation in reinforcement learning and eagerness to learn through full-cycle experimentation.</span></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Me -->
-    <section id="about" class="max-w-6xl mx-auto px-6 py-20 bg-zinc-100">
-        <h2 class="text-4xl font-bold mb-10 text-center">About Me</h2>
+    <!-- About Me （现在移到最前面） -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-5xl font-bold mb-10 text-center">About Me</h2>
         <div class="max-w-3xl mx-auto text-lg leading-relaxed space-y-6">
             <p>Driven and analytical Artificial Intelligence graduate with strong expertise in machine learning, business analytics, and intelligent systems.</p>
             <p>Skilled in cross-domain problem solving, clear communication and storytelling, with hands-on experience in project management and a strong eagerness to learn and adapt to new technologies.</p>
@@ -173,6 +122,90 @@
                         <span class="px-6 py-3 bg-zinc-100 rounded-3xl text-sm">NumPy • Matplotlib • SciPy</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects （全部项目，相同格式） -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20 bg-white">
+        <h2 class="text-5xl font-bold text-center mb-4">Featured Projects</h2>
+        <p class="text-center text-zinc-500 mb-12">Recent &amp; Selected Work</p>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- 1. HK Trip -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-brain text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">Hong Kong Intelligent Trip Planner</h3>
+                        <p class="text-indigo-600">Apr – May 2026</p>
+                    </div>
+                </div>
+                <p class="font-semibold text-indigo-700 text-lg">88% constraint compliance • 82.4% preference coverage</p>
+                <p class="mt-8 text-zinc-600 text-sm">Solely designed &amp; implemented Critic Agent (prompt + rule-based checks). <span class="highlight">Demonstrates my ability to build reliable multi-agent LLM systems with analytical precision.</span></p>
+            </div>
+
+            <!-- 2. Titanic -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-chart-line text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">Titanic Survival Prediction</h3>
+                        <p class="text-indigo-600">Mar – Apr 2026</p>
+                    </div>
+                </div>
+                <p class="font-semibold text-indigo-700 text-lg">Accuracy ↑2.23% • F1 ↑4.93%</p>
+                <p class="mt-8 text-zinc-600 text-sm">Solely owned all feature engineering. <span class="highlight">Demonstrates my analytical strength in turning raw data into high-impact features.</span></p>
+            </div>
+
+            <!-- 3. Snake Game -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-gamepad text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">AI Snake Game (DQN)</h3>
+                        <p class="text-indigo-600">Feb – Mar 2026</p>
+                    </div>
+                </div>
+                <p class="font-semibold text-indigo-700 text-lg">Successful policy learning</p>
+                <p class="mt-8 text-zinc-600 text-sm">Sole developer. <span class="highlight">Showcases my strong foundation in reinforcement learning.</span></p>
+            </div>
+
+            <!-- 4. Multi-Agent RAG -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-robot text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">Multi-Agent RAG Q&amp;A System</h3>
+                        <p class="text-indigo-600">Feb 2026 – Present</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-zinc-600 text-sm">Sole developer of multi-agent system with Planner, Rewriter &amp; Retrieval agents. <span class="highlight">Demonstrates my expertise in RAG and intelligent systems architecture.</span></p>
+            </div>
+
+            <!-- 5. Email Classifier -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-envelope text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">Intelligent Email Auto-Classifier</h3>
+                        <p class="text-indigo-600">Sep 2025 – Dec 2026</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-zinc-600 text-sm">Hybrid rule + ML system. Accuracy improved from 75% to 92%. <span class="highlight">Demonstrates my cross-domain problem-solving skills.</span></p>
+            </div>
+
+            <!-- 6. Facial Expression Recognition -->
+            <div class="project-card bg-white border border-zinc-100 p-8 rounded-3xl shadow">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fa-solid fa-face-smile text-4xl text-indigo-600"></i>
+                    <div>
+                        <h3 class="font-bold text-2xl">Facial Expression Recognition System</h3>
+                        <p class="text-indigo-600">Sep 2024 – Apr 2025</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-zinc-600 text-sm">Lightweight CNN with model compression. 75.8% accuracy, +25 FPS. <span class="highlight">Demonstrates my computer vision and optimization capabilities.</span></p>
             </div>
         </div>
     </section>
